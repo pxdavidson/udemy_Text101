@@ -9,6 +9,7 @@ public class TextWriter : MonoBehaviour
 
     // Define externals
     [SerializeField] Text bodyTextComponent;
+    [SerializeField] State state;
 
     // Define Variables
     string bodyTextContent;
@@ -16,25 +17,13 @@ public class TextWriter : MonoBehaviour
 	// Use this for initialization
 	void Start ()
     {
-        SetIntroText();
+        UpdateText();
         bodyTextComponent.text = bodyTextContent;
 	}
 
-    // Sets the introduction text
-    void SetIntroText()
-    {
-        bodyTextContent = "Hello World";
-    }
-
     // Call this and pass updated text to it to display
-    public void UpdateText(string updatedText)
+    public void UpdateText()
     {
-        bodyTextContent = updatedText;
+        bodyTextContent = state.GetStoryText();
     }
-    
-    // Update is called once per frame
-    void Update ()
-    {
-		
-	}
 }

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfde523ec8989504c8591b0e32a27449, type: 3}
+  m_Name: StartState
+  m_EditorClassIdentifier: 
+  storyText: 'You scramble over rubble, your feet slipping on loose bricks as the
+    rain splashes off graffitti scrawled concrete onto your face.
+
+
+    Finding a handhold you catch your breath, the taste of blood fills our mouth and
+    you spit red, glinting in the moonlight onto the muddied ground.
+
+
+    You hear the sound of dogs and you heave a deep breath your lungs burning and
+    legs aching. Ahead of you see a smashed window and a darkened staircase beyond.
+
+
+    1. Stay where you are and hope your pursuers miss you in the debris.
+
+    2. Sprint for the window.'
