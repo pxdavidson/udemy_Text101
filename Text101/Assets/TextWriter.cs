@@ -18,7 +18,6 @@ public class TextWriter : MonoBehaviour
 	void Start ()
     {
         UpdateText();
-        bodyTextComponent.text = bodyTextContent;
 	}
 
     // Call this and pass updated text to it to display
