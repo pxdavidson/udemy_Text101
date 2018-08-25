@@ -12,4 +12,5 @@ MonoBehaviour:
   m_Name: StartHide
   m_EditorClassIdentifier: 
   storyText: You hide and they find you and kill you.
-  nextStates: []
+  nextStates:
+  - {fileID: 11400000, guid: db4e881339438c448a32c6facee680c7, type: 2}

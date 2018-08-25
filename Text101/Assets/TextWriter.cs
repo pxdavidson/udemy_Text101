@@ -6,7 +6,6 @@ using UnityEngine.UI;
 
 public class TextWriter : MonoBehaviour
 {
-
     // Define externals
     [SerializeField] Text bodyTextComponent;
     [SerializeField] State state;
@@ -18,8 +17,15 @@ public class TextWriter : MonoBehaviour
 	}
 
     // Call this and pass updated text to it to display
-    public void UpdateText()
+    void UpdateText()
     {
         bodyTextComponent.text = state.GetStoryText();
+    }
+
+    public void UpdateState(State newState)
+    {
+        Debug.Log("UpdateState");
+        state = newState;
+        UpdateText();
     }
 }
