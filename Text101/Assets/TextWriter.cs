@@ -11,9 +11,6 @@ public class TextWriter : MonoBehaviour
     [SerializeField] Text bodyTextComponent;
     [SerializeField] State state;
 
-    // Define Variables
-    string bodyTextContent;
-
 	// Use this for initialization
 	void Start ()
     {
@@ -23,6 +20,6 @@ public class TextWriter : MonoBehaviour
     // Call this and pass updated text to it to display
     public void UpdateText()
     {
-        bodyTextContent = state.GetStoryText();
+        bodyTextComponent.text = state.GetStoryText();
     }
 }

@@ -26,3 +26,6 @@ MonoBehaviour:
     1. Stay where you are and hope your pursuers miss you in the debris.
 
     2. Sprint for the window.'
+  nextStates:
+  - {fileID: 11400000, guid: a9cf9dbef17c7a7428564695f141d3e6, type: 2}
+  - {fileID: 11400000, guid: b884c132cb26cc842b9ffe8d7c8b3f21, type: 2}
