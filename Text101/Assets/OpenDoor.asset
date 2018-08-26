@@ -11,6 +11,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfde523ec8989504c8591b0e32a27449, type: 3}
   m_Name: OpenDoor
   m_EditorClassIdentifier: 
-  storyText: 
+  storyText: 'Inside is a storeroom. You find a hammer you could use to defend yourself.
+
+
+    Tucking the hammer into your belt you survey the room, everything else here is
+    old junk left from the previous tenants. the window has debris fallen against
+    it and rain is leaking in to a puddle on the floor.
+
+
+    You decide to head back and upstairs.
+
+
+    Press 1 to continue...'
   nextStates:
-  - {fileID: 11400000, guid: b884c132cb26cc842b9ffe8d7c8b3f21, type: 2}
+  - {fileID: 11400000, guid: f2e9576259b1b61438b58f7a612d6b6a, type: 2}

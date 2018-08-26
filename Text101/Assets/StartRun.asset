@@ -11,7 +11,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfde523ec8989504c8591b0e32a27449, type: 3}
   m_Name: StartRun
   m_EditorClassIdentifier: 
-  storyText: You run and end up in the dark staircase.
+  storyText: 'You bolt for the building, leaping through the window and crouching
+    in the darkness as a torchlight sweeps over the wall behind you.
+
+
+    You take a moment to catch you breath while crouched in the broken glass and dirt.
+    You know it won''t be long before your pursuers look in here.
+
+
+    In front of you you see a door and a staircase.
+
+
+    1. Investigate the door.
+
+    2. Head up the stairs'
   nextStates:
   - {fileID: 11400000, guid: e575dde1f962fb341b42c134743ceeeb, type: 2}
   - {fileID: 11400000, guid: f2e9576259b1b61438b58f7a612d6b6a, type: 2}

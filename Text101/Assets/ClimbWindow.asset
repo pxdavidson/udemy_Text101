@@ -11,6 +11,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfde523ec8989504c8591b0e32a27449, type: 3}
   m_Name: ClimbWindow
   m_EditorClassIdentifier: 
-  storyText: 
+  storyText: 'You duck into the bedroom and move swiftly accross the floor, being
+    careful not to step on any of the various toys left scattered after the previous
+    occupant departed.
+
+
+    Climbing out the window you find a narrow ledge that you could shimmy along to
+    the next house.
+
+
+    You hear voices on the stairs coming up and decide you have no choice but to push
+    out into the rain slicked ledge.
+
+
+    Making your way sowly and carefully, flinching every time lightning lashes accross
+    the sky you eventually reach a window into a darkened hallway.
+
+
+    Press 1 to continue...'
   nextStates:
   - {fileID: 11400000, guid: a574b776207d1164c86e884f90a1c183, type: 2}

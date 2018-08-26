@@ -11,6 +11,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfde523ec8989504c8591b0e32a27449, type: 3}
   m_Name: StartHide
   m_EditorClassIdentifier: 
-  storyText: You hide and they find you and kill you.
+  storyText: 'You push backwards into the rubble, pulling a tattered tarpaulin over
+    you and dislodging a discarded bottle thyat smashes on the ground.
+
+
+    You freeze praying that no one heard over the noise of the storm. Waiting seems
+    to take forever as you check your ragged breath to minimise noise.
+
+
+    Crunching footsteps in front of you make your heart leap into your throat.
+
+
+    "Well well well, looks like we got our little street rat friend."
+
+
+    Press 1 to continue...'
   nextStates:
   - {fileID: 11400000, guid: db4e881339438c448a32c6facee680c7, type: 2}

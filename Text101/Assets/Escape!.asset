@@ -11,6 +11,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfde523ec8989504c8591b0e32a27449, type: 3}
   m_Name: Escape!
   m_EditorClassIdentifier: 
-  storyText: 
+  storyText: 'You enter the hallway, glad you be at least a walls thickness from your
+    persuers.
+
+
+    In front of you is a set of stairs that lead down to a hallway. To the left you
+    see an open door with a motorbike. You rush down the stairs and jump on the bike,
+    wheeling it backwards into the house and poiting it towards the front door.
+
+
+    You twist the key in the ignition and the engine roars to life, no doubt alerting
+    those in the adjacent house of your presence. But you don''t care, twisting the
+    throttle you launch forward out onto the road and into the rain swept night.
+
+
+    Finally an escape!
+
+
+    Press 1 to play again.'
   nextStates:
   - {fileID: 11400000, guid: c244b02c44ebdbd4d9363e9d5f0e5c45, type: 2}

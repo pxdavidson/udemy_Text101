@@ -24,7 +24,6 @@ public class TextWriter : MonoBehaviour
 
     public void UpdateState(State newState)
     {
-        Debug.Log("UpdateState");
         state = newState;
         UpdateText();
     }

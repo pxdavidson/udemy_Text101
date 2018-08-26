@@ -8,9 +8,15 @@ public class InputManager : MonoBehaviour {
     // Define Externals
     [SerializeField] State state;
     TextWriter textWriter;
-	
-	// Update is called once per frame
-	void Update ()
+
+    // Use this for initialization
+    void Start()
+    {
+        textWriter = FindObjectOfType<TextWriter>();
+    }
+
+    // Update is called once per frame
+    void Update ()
     {
         ManageStates();
 	}
@@ -22,12 +28,12 @@ public class InputManager : MonoBehaviour {
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
             state = nextStates[0];
-            textWriter.UpdateState(nextStates[0]);
+            textWriter.UpdateState(state);
         }
         else if (Input.GetKeyDown(KeyCode.Alpha2))
         {
             state = nextStates[1];
-            textWriter.UpdateState(nextStates[1]);
+            textWriter.UpdateState(state);
         }
         else
         {

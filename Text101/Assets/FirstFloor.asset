@@ -11,7 +11,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfde523ec8989504c8591b0e32a27449, type: 3}
   m_Name: FirstFloor
   m_EditorClassIdentifier: 
-  storyText: 
+  storyText: 'You reach the top of the stairs, being careful on the rain damaged floor.
+    Above you a section of roof has collapsed exposing floor beams that you could
+    clamber up into the loft.
+
+
+    To your right is a burnt out room and to your left is an abandonned childrens
+    bedroom that with an open window.
+
+
+    You hear the sound of wood smashing deeping in the hous eas the door is kicked
+    in. You must move quickly.
+
+
+    1. Climb out window of childs bedroom.
+
+    2. Make your way up to the attic'
   nextStates:
   - {fileID: 11400000, guid: 62432953b298be241b07a18297d52c22, type: 2}
   - {fileID: 11400000, guid: 019831a1d372a5849bdc163e9d1e1bb6, type: 2}

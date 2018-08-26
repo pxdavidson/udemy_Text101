@@ -11,6 +11,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfde523ec8989504c8591b0e32a27449, type: 3}
   m_Name: FallDead
   m_EditorClassIdentifier: 
-  storyText: 
+  storyText: 'You take a running jump and land short, the floor gives way underneath
+    you and you plummet through rotten wood into the burnt room before crashing through
+    more dilapidated masonry and timber before coming to a hard stop on the floor
+    of a storeroom.
+
+
+    Dead.
+
+
+    Press 1 to play again.'
   nextStates:
   - {fileID: 11400000, guid: c244b02c44ebdbd4d9363e9d5f0e5c45, type: 2}

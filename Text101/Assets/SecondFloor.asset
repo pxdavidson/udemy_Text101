@@ -11,7 +11,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfde523ec8989504c8591b0e32a27449, type: 3}
   m_Name: SecondFloor
   m_EditorClassIdentifier: 
-  storyText: 
+  storyText: 'Grasping the rotten beams you make your way up into the attic. You slip
+    briefly banging your hip against the wet wood but regain your footing as you hear
+    voices at the bottom of the atairs.
+
+
+    Hauling yourself into the attic you look around and see someone has knocked through
+    the dividing wall between the current house and the next house.
+
+
+    Water has got in here too and rotted through the floorboards and a big section
+    in the middle is sagging. th voices on the stairs are growing louder as they ascend.
+    You could take a running jump and make it quick or crawl along the drier sections
+    under the eaves of the roof.
+
+
+    1. Take a run up and jump
+
+    2. Take it slow and crawl'
   nextStates:
   - {fileID: 11400000, guid: 2860b0dd9fd219048803c414c0c76cd3, type: 2}
   - {fileID: 11400000, guid: 5c91a51b4165b7545b1905a26ff68e7b, type: 2}

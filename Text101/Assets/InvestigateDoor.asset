@@ -9,9 +9,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cfde523ec8989504c8591b0e32a27449, type: 3}
-  m_Name: GoDeeper
+  m_Name: InvestigateDoor
   m_EditorClassIdentifier: 
-  storyText: 
+  storyText: 'The door is old and looks like it leads to a back room. perhaps you
+    could hide here?
+
+
+    It''s locked but old. A firm kick could open it but would render the lock useless.
+
+
+    1. Kick the door open.
+
+    2. Head back and up the stairs.'
   nextStates:
   - {fileID: 11400000, guid: d17073342dfce1542bea5342c8cdfadd, type: 2}
   - {fileID: 11400000, guid: f2e9576259b1b61438b58f7a612d6b6a, type: 2}
