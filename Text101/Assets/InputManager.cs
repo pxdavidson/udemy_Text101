@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class InputManager : MonoBehaviour {
-    
+
     // Define Externals
     [SerializeField] State state;
     TextWriter textWriter;
@@ -24,20 +24,17 @@ public class InputManager : MonoBehaviour {
     public void ManageStates()
     {
         var nextStates = state.GetNextStates();
-
-        if (Input.GetKeyDown(KeyCode.Alpha1))
+        for (int index = 0; index < nextStates.Length; index++)
         {
-            state = nextStates[0];
-            textWriter.UpdateState(state);
-        }
-        else if (Input.GetKeyDown(KeyCode.Alpha2))
-        {
-            state = nextStates[1];
-            textWriter.UpdateState(state);
-        }
-        else
-        {
-            // Do nothing
+            if (Input.GetKeyDown(KeyCode.Alpha1 + index))
+            {
+                state = nextStates[index];
+                textWriter.UpdateState(nextStates[index]);
+            }
+            else
+            {
+                // Do nothing
+            }
         }
     }
 }
